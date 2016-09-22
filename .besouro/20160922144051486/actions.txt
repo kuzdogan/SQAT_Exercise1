@@ -420,3 +420,6 @@ EditAction 1474550091660 TestBowling.java 4274 19 67 16
 UnitTestCaseAction 1474550109499 TestBowling.java FAIL
 UnitTestSessionAction 1474550109499 TestBowling.java FAIL
 EditAction 1474550116805 TestBowling.java 4274 19 67 16
+UnitTestCaseAction 1474550127404 TestBowling.java FAIL
+UnitTestSessionAction 1474550127405 TestBowling.java FAIL
+EditAction 1474550152831 TestBowling.java 4204 19 65 16
