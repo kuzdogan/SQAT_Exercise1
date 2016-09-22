@@ -62,9 +62,6 @@ public class BowlingGame {
 	public int score() throws BowlingException {
 		int total = 0;
 		for (int i = 0; i < frames.size(); i++) {
-			if (frames.get(i+1).isStrike()){
-				
-			}
 			total += frames.get(i).score();
 		}
 		// Get all scores of frames by calling their score method
