@@ -20,7 +20,7 @@ public class BowlingGame {
 		// If not the first frame, set the scores.
 		// Here set the nextThrow values of prev frames.
 		if(frame.getFrameNum() > 1){
-			Frame prevFrame = frames.get(frame.getFrameNum()-1);
+			Frame prevFrame = frames.get(frame.getFrameNum()-2);
 			
 			// If a strike check if double strike.
 			if(frame.isStrike()){
