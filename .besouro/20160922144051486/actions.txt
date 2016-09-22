@@ -539,3 +539,6 @@ RefactoringAction 1474551481762 BowlingGame.java REMOVE setBonus(int, int) METHO
 RefactoringAction 1474551481763 BowlingGame.java REMOVE getFrame(int) METHOD
 RefactoringAction 1474551481763 BowlingGame.java REMOVE score() METHOD
 EditAction 1474551483186 BowlingGame.java 2173 5 9 0
+UnitTestCaseAction 1474551485255 TestBowling.java FAIL
+UnitTestSessionAction 1474551485255 TestBowling.java FAIL
+EditAction 1474551487840 BowlingGame.java 2169 5 10 0

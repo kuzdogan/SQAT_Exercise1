@@ -40,7 +40,7 @@ public class BowlingGame {
 				prevFrame.setNextThrow2(frame.getSecondThrow());
 			}
 		}
-		/*if (frame.getFrameNum() == 10){
+		if (frame.getFrameNum() == 10){
 			if(frame.isStrike()){
 				frame.setNextThrow1(bonus.getFirstThrow());
 				frame.setNextThrow2(bonus.getSecondThrow());
@@ -48,7 +48,7 @@ public class BowlingGame {
 			if(frame.isSpare()){
 				frame.setNextThrow1(bonus.getFirstThrow());
 			}
-		}*/
+		}
 		frames.add(frame);
 	}
 	
