@@ -1,6 +1,10 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	
+	// Frame number to access other frames.
+	private int frameNum;
+	// TODO: Can we use another method to access other frames in the game?
 
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
 		if (firstThrow + secondThrow > 10)
@@ -45,5 +49,9 @@ public class Frame {
 		if ((firstThrow + secondThrow == 10) && firstThrow != 10)
 			return true;
 		return false;
+	}
+	
+	public setFrameNum(int num){
+		this.frameNum = num;
 	}
 }

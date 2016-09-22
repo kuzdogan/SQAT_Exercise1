@@ -131,3 +131,23 @@ EditAction 1474546481805 BowlingGame.java 853 5 4 0
 EditAction 1474546627087 Frame.java 942 6 11 0
 EditAction 1474546640935 Frame.java 998 6 11 0
 EditAction 1474546644805 Frame.java 961 6 10 0
+CompilationAction 1474546644898 Frame.java
+RefactoringAction 1474546682734 Frame.java ADD int frameNum FIELD
+CompilationAction 1474546683581 Frame.java
+CompilationAction 1474546683770 Frame.java
+CompilationAction 1474546723972 Frame.java
+CompilationAction 1474546724151 Frame.java
+CompilationAction 1474546738002 Frame.java
+CompilationAction 1474546738188 Frame.java
+RefactoringAction 1474546752339 Frame.java RENAME Frame(int, int)=>Frame(int, int, int) METHOD
+CompilationAction 1474546757771 Frame.java
+CompilationAction 1474546757936 Frame.java
+CompilationAction 1474546757937 TestBowling.java
+CompilationAction 1474546766268 Frame.java
+CompilationAction 1474546766410 Frame.java
+RefactoringAction 1474546773894 Frame.java RENAME Frame(int, int, int)=>Frame(int, int) METHOD
+CompilationAction 1474546775741 Frame.java
+CompilationAction 1474546775918 Frame.java
+RefactoringAction 1474546804953 Frame.java ADD void setFrameNum() METHOD
+RefactoringAction 1474546806965 Frame.java RENAME setFrameNum()=>void setFrameNum(int) METHOD
+EditAction 1474546819873 Frame.java 1165 7 11 0
