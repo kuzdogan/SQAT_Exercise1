@@ -245,4 +245,21 @@ public class TestBowling {
 		assertEquals(0, game.score());
 	}
 	
+	@Test
+	public void testGameScore10FrameBonus() throws BowlingException {
+		BowlingGame game = new BowlingGame();		
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(1, 0));
+		
+		assertEquals(0, game.score());
+	}
+	
 }
