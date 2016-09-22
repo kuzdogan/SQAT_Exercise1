@@ -49,3 +49,21 @@ UnitTestSessionAction 1474545361220 TestBowling.java OK
 EditAction 1474545430035 Frame.java 832 6 10 0
 CompilationAction 1474545430116 Frame.java
 EditAction 1474545442566 Frame.java 863 6 7 0
+CompilationAction 1474545442664 Frame.java
+CompilationAction 1474545442664 Frame.java
+CompilationAction 1474545442665 Frame.java
+CompilationAction 1474545455072 Frame.java
+CompilationAction 1474545455074 Frame.java
+CompilationAction 1474545455075 Frame.java
+CompilationAction 1474545455253 Frame.java
+CompilationAction 1474545455254 Frame.java
+CompilationAction 1474545455255 Frame.java
+CompilationAction 1474545455255 Frame.java
+CompilationAction 1474545455256 Frame.java
+CompilationAction 1474545491825 Frame.java
+CompilationAction 1474545507437 Frame.java
+CompilationAction 1474545507635 TestBowling.java
+CompilationAction 1474545558025 TestBowling.java
+CompilationAction 1474545558211 TestBowling.java
+CompilationAction 1474545560733 TestBowling.java
+EditAction 1474545575114 TestBowling.java 984 6 12 6
