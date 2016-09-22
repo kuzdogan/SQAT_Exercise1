@@ -101,3 +101,7 @@ EditAction 1474546085345 BowlingGame.java 668 4 1 0
 CompilationAction 1474546085436 BowlingGame.java
 EditAction 1474546105691 BowlingGame.java 723 4 3 0
 EditAction 1474546109851 BowlingGame.java 719 4 3 0
+RefactoringAction 1474546121146 TestBowling.java ADD void test FIELD
+RefactoringAction 1474546123661 TestBowling.java RENAME test=>void testAddFrame FIELD
+RefactoringAction 1474546124680 TestBowling.java RENAME testAddFrame=>void testAddFrame() METHOD
+EditAction 1474546163895 TestBowling.java 1489 9 16 6

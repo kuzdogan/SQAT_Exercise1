@@ -60,4 +60,12 @@ public class TestBowling {
 
 		assertFalse(testFrame.isStrike());
 	}
+	
+	@Test
+	public void testAddFrame() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(5, 3);
+		
+		
+	}
 }
