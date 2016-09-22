@@ -257,3 +257,4 @@ RefactoringAction 1474548600564 TestBowling.java ADD void testFrameScore_5_3()/2
 RefactoringAction 1474548603576 TestBowling.java RENAME testFrameScore_5_3()/2=>void testFrameScore_1_3() METHOD
 RefactoringAction 1474548605080 TestBowling.java RENAME testFrameScore_1_3()=>void testFrameScore_10_0() METHOD
 EditAction 1474548605133 TestBowling.java 2488 13 37 10
+EditAction 1474548609047 TestBowling.java 2489 13 37 10
