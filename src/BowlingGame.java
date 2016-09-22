@@ -24,14 +24,16 @@ public class BowlingGame {
 		
 		// If not the first frame, set the scores as 
 		if(frame.getFrameNum() != 1){
+			Frame prevFrame = frames.get(frame.getFrameNum()-1);
 			if(frame.isStrike()){
-				Frame prevFrame = frames.get(frame.getFrameNum()-1);
 				if(prevFrame.isStrike()){
 					Frame prevPrevFrame = frames.get(frame.getFrameNum()-2);
 					prevPrevFrame.setNextThrow2(10);
 				} else{
 					prevFrame.setNextThrow1(10);
 				}
+			} else{
+				
 			}
 			
 		}
