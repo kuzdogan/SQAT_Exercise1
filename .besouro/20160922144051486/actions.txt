@@ -365,3 +365,4 @@ UnitTestSessionAction 1474549366129 TestBowling.java OK
 RefactoringAction 1474549374760 TestBowling.java ADD void testGameScore4Frame()/2 METHOD
 EditAction 1474549382119 TestBowling.java 3854 18 60 15
 EditAction 1474549385922 TestBowling.java 3855 18 60 15
+EditAction 1474549401532 TestBowling.java 3855 18 60 15
