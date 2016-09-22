@@ -13,6 +13,13 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void testFrame_4_3() throws BowlingException {
+		Frame testFrame = new Frame(4, 3);
+		
+		// Expect no exceptions.
+	}
+	
+	@Test
 	public void testSpare_4_3() throws BowlingException {
 		Frame testFrame = new Frame(4, 3);
 

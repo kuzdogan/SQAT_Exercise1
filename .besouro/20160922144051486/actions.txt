@@ -84,3 +84,5 @@ CompilationAction 1474545807780 TestBowling.java
 RefactoringAction 1474545815359 TestBowling.java REMOVE testFrame_4_3()/2 METHOD
 CompilationAction 1474545815860 TestBowling.java
 EditAction 1474545835565 TestBowling.java 1150 7 13 6
+RefactoringAction 1474545850424 TestBowling.java ADD void testFrame_4_3()/2 METHOD
+EditAction 1474545850429 TestBowling.java 1291 8 14 6
