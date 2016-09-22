@@ -459,3 +459,8 @@ RefactoringAction 1474550501873 TestBowling.java RENAME testNextThrowOneStrike()
 RefactoringAction 1474550502888 TestBowling.java RENAME testNextThrowOneSt()=>void testNextThrow() METHOD
 EditAction 1474550503163 TestBowling.java 5217 22 85 19
 EditAction 1474550509237 TestBowling.java 5181 22 84 19
+UnitTestCaseAction 1474550512750 TestBowling.java FAIL
+UnitTestSessionAction 1474550512750 TestBowling.java FAIL
+UnitTestCaseAction 1474550551480 TestBowling.java FAIL
+UnitTestSessionAction 1474550551481 TestBowling.java FAIL
+EditAction 1474550612747 BowlingGame.java 1812 5 8 0
