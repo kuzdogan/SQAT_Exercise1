@@ -21,6 +21,7 @@ public class BowlingGame {
 		if(frame.getFrameNum() != 1){
 			Frame prevFrame = frames.get(frame.getFrameNum()-1);
 			
+			// If a strike check if double strike.
 			if(frame.isStrike()){
 				if(prevFrame.isStrike()){
 					Frame prevPrevFrame = frames.get(frame.getFrameNum()-2);

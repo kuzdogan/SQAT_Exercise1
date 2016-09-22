@@ -240,3 +240,4 @@ RefactoringAction 1474548364174 Frame.java REMOVE isStrike() METHOD
 EditAction 1474548390484 BowlingGame.java 1384 5 6 0
 EditAction 1474548424300 BowlingGame.java 1389 5 6 0
 EditAction 1474548427481 BowlingGame.java 1389 5 6 0
+EditAction 1474548442668 BowlingGame.java 1432 5 6 0
