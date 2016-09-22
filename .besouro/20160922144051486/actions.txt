@@ -447,3 +447,4 @@ UnitTestSessionAction 1474550261529 TestBowling.java FAIL
 RefactoringAction 1474550311687 TestBowling.java ADD void testAddFrameTripleStrike()/2 METHOD
 RefactoringAction 1474550316708 TestBowling.java RENAME testAddFrameTripleStrike()/2=>void testAddFrameOneStrike() METHOD
 EditAction 1474550316723 TestBowling.java 4920 21 80 18
+EditAction 1474550330027 TestBowling.java 4883 21 79 18
