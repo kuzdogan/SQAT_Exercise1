@@ -92,7 +92,7 @@ public class TestBowling {
 	}
 	
 	@Test (expected = BowlingException.class)
-	public void testAddFrameDoubleStrike() throws BowlingException {
+	public void testAddFrameTripleStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		
 		// Add 10 frames.
@@ -100,6 +100,8 @@ public class TestBowling {
 		game.addFrame(new Frame(5, 3));
 		game.addFrame(new Frame(10, 0));
 		game.addFrame(new Frame(10, 0));
+		
+		assertEquals(10,)
 	}
 	
 	@Test
