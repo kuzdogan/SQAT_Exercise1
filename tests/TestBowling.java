@@ -229,18 +229,18 @@ public class TestBowling {
 		assertEquals(52, game.score());
 	}
 	@Test
-	public void testGameScore10Frame() throws BowlingException {
+	public void testGameScore10Frame2() throws BowlingException {
 		BowlingGame game = new BowlingGame();		
-		game.addFrame(new Frame(3, 4));
-		game.addFrame(new Frame(1, 0));
-		game.addFrame(new Frame(5, 0));
-		game.addFrame(new Frame(5, 0));
-		game.addFrame(new Frame(5, 0));
-		game.addFrame(new Frame(2, 0));
-		game.addFrame(new Frame(10, 0));
-		game.addFrame(new Frame(5, 0));
-		game.addFrame(new Frame(2, 0));
-		game.addFrame(new Frame(2, 3));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(0, 0));
 		
 		assertEquals(52, game.score());
 	}
