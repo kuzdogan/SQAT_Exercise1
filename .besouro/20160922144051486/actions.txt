@@ -25,3 +25,4 @@ RefactoringAction 1474545264067 TestBowling.java ADD void testSpare_4_3()/2 METH
 RefactoringAction 1474545267584 TestBowling.java RENAME testSpare_4_3()/2=>void testSpare_2_3() METHOD
 EditAction 1474545269251 TestBowling.java 475 3 6 3
 EditAction 1474545273001 TestBowling.java 475 3 6 3
+EditAction 1474545276731 TestBowling.java 474 3 6 3

@@ -22,7 +22,7 @@ public class TestBowling {
 	public void testSpare_2_8() {
 		Frame testFrame = new Frame(2, 8);
 		
-		assertFalse(testFrame.isSpare());
+		assertTrue(testFrame.isSpare());
 	}
 
 }
