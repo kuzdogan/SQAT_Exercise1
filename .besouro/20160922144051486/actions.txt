@@ -373,3 +373,13 @@ RefactoringAction 1474549439325 TestBowling.java RENAME testAddFrameOutOfBounds(
 EditAction 1474549441308 TestBowling.java 4451 19 72 15
 EditAction 1474549461181 TestBowling.java 4181 19 65 15
 EditAction 1474549510327 TestBowling.java 4206 19 60 15
+CompilationAction 1474549510421 TestBowling.java
+CompilationAction 1474549510421 TestBowling.java
+CompilationAction 1474549510421 TestBowling.java
+CompilationAction 1474549515852 TestBowling.java
+CompilationAction 1474549515853 TestBowling.java
+CompilationAction 1474549515853 TestBowling.java
+CompilationAction 1474549515980 TestBowling.java
+CompilationAction 1474549515981 TestBowling.java
+CompilationAction 1474549515981 TestBowling.java
+EditAction 1474549547435 TestBowling.java 4274 19 67 16
