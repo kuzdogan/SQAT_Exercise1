@@ -485,3 +485,4 @@ RefactoringAction 1474550886059 TestBowling.java ADD void testGameScore4FrameDou
 RefactoringAction 1474550890574 TestBowling.java RENAME testGameScore4FrameDoubleStrike()/2=>void testGameScore10FrameDoubleStrike() METHOD
 EditAction 1474550890671 TestBowling.java 5495 23 90 20
 EditAction 1474550897582 TestBowling.java 5483 23 90 20
+EditAction 1474550931628 TestBowling.java 5692 23 96 20
