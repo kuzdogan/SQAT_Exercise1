@@ -4,7 +4,7 @@ public class Frame {
 	
 	// Variables for calculating strike/spare scores
 	// Assigned on BowlingGame.addFrame() method
-	private int nextThrow1 = 1;
+	private int nextThrow1 = 0;
 	private int nextThrow2 = 0;
 	// TODO: A better way to do?
 	
