@@ -93,7 +93,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testFrameScore() throws BowlingException {
+	public void testFrameScore_5_3() throws BowlingException {
 		Frame frame = new Frame(5, 3);
 		
 		assertEquals(8, frame.score());
