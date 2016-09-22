@@ -110,6 +110,6 @@ public class TestBowling {
 	public void testFrameScore_10_0() throws BowlingException {
 		Frame frame = new Frame(10, 0);
 		
-		assertEquals(8, frame.score());
+		assertEquals(10, frame.score());
 	}
 }
