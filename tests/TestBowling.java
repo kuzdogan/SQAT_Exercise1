@@ -71,7 +71,7 @@ public class TestBowling {
 		assertEquals(frame, game.getFrame(0));
 	}
 	
-	@Test
+	@Test (expected = BowlingException.class)
 	public void testAddFrameOutOfBounds() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(5, 3);
