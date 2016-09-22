@@ -213,7 +213,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testGameScore10FrameDoubleStrike() throws BowlingException {
+	public void testGameScore10Frame() throws BowlingException {
 		BowlingGame game = new BowlingGame();		
 		game.addFrame(new Frame(3, 4));
 		game.addFrame(new Frame(1, 0));
