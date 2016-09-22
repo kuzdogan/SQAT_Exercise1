@@ -17,12 +17,14 @@ public class BowlingGame {
 			throw new BowlingException();
 		frame.setFrameNum(frames.size()+1);
 		
-		// If not the first frame, set the scores
+		// If not the first frame, set the scores.
+		// Here set the nextThrow values of prev frames.
 		if(frame.getFrameNum() != 1){
 			Frame prevFrame = frames.get(frame.getFrameNum()-1);
 			
 			// If a strike check if double strike.
 			if(frame.isStrike()){
+				// If double strike 
 				if(prevFrame.isStrike()){
 					Frame prevPrevFrame = frames.get(frame.getFrameNum()-2);
 					prevPrevFrame.setNextThrow2(10);
