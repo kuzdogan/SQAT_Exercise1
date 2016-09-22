@@ -210,3 +210,31 @@ EditAction 1474547965381 BowlingGame.java 1424 5 8 0
 EditAction 1474547985781 BowlingGame.java 1472 5 8 0
 EditAction 1474548013933 BowlingGame.java 1489 5 8 0
 EditAction 1474548050074 BowlingGame.java 1590 5 8 0
+RefactoringAction 1474548077027 Frame.java REMOVE nextThrow2 FIELD
+RefactoringAction 1474548081039 Frame.java ADD int nextThrow2 FIELD
+CompilationAction 1474548088425 Frame.java
+CompilationAction 1474548088592 Frame.java
+CompilationAction 1474548128750 Frame.java
+CompilationAction 1474548128750 Frame.java
+CompilationAction 1474548133096 Frame.java
+CompilationAction 1474548133237 Frame.java
+CompilationAction 1474548134302 Frame.java
+CompilationAction 1474548201057 Frame.java
+CompilationAction 1474548211926 Frame.java
+CompilationAction 1474548217992 Frame.java
+CompilationAction 1474548249979 Frame.java
+RefactoringAction 1474548300161 BowlingGame.java REMOVE shotQueue FIELD
+RefactoringAction 1474548301174 BowlingGame.java REMOVE import java.util.Queue IMPORT
+RefactoringAction 1474548333064 Frame.java REMOVE getFrameNum() METHOD
+RefactoringAction 1474548333065 Frame.java REMOVE setFrameNum(int) METHOD
+RefactoringAction 1474548333066 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1474548333066 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1474548339602 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1474548339603 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1474548339603 Frame.java ADD void setFrameNum(int) METHOD
+RefactoringAction 1474548339604 Frame.java ADD int getFrameNum() METHOD
+RefactoringAction 1474548364172 Frame.java REMOVE getFrameNum() METHOD
+RefactoringAction 1474548364173 Frame.java REMOVE setFrameNum(int) METHOD
+RefactoringAction 1474548364173 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1474548364174 Frame.java REMOVE isStrike() METHOD
+EditAction 1474548390484 BowlingGame.java 1384 5 6 0

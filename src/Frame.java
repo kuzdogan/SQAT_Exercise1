@@ -4,7 +4,8 @@ public class Frame {
 	
 	// Variables for calculating strike/spare scores
 	// Assigned on BowlingGame.addFrame() method
-	private int nextThrow1, nextThrow2;
+	private int nextThrow1 = 0;
+	private int nextThrow2 = 0;
 	// TODO: A better way to do?
 	
 	// Frame number to access other frames.
@@ -51,13 +52,22 @@ public class Frame {
 	}
 
 	// returns the score of a single frame
-	public int score() {
+	public int score() throws BowlingException {
 		if (this.isStrike()) {
-			
+			/* // If next throws unknown throw exception, need to wait for shots
+			if (this.nextThrow1 == -1 || this.nextThrow2 == -1)
+				throw new BowlingException();
+			*/
+			return firstThrow + secondThrow + nextThrow1 + nextThrow2;
 		}
 
 		else if (this.isSpare()) {
-
+			/*
+			// If the next throw unknown throw exception, need to wait for shots
+			if (this.nextThrow1 == -1)
+				throw new BowlingException();
+			*/
+			return firstThrow + secondThrow + nextThrow1;
 		}
 		
 		else {
