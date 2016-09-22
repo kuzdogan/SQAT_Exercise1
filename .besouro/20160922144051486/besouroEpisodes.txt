@@ -24,3 +24,11 @@
 1474545361222 test-addition 1 49 true
 1474545361223 test-addition 1 49 true
 1474545361224 test-addition 1 49 true
+1474545895402 test-last 1 465 false
+1474545895403 test-last 1 465 false
+1474545895404 test-last 1 465 false
+1474545895405 test-last 1 465 false
+1474545895406 test-last 1 465 false
+1474545895407 test-last 1 465 false
+1474545895408 test-last 1 465 false
+1474545895409 test-last 1 465 false

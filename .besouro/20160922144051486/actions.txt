@@ -92,3 +92,6 @@ CompilationAction 1474545866066 TestBowling.java
 RefactoringAction 1474545874517 TestBowling.java RENAME testFrame_4_3()/2=>void testFrame_4_9() METHOD
 EditAction 1474545876041 TestBowling.java 1327 8 14 6
 EditAction 1474545886259 TestBowling.java 1336 8 14 6
+UnitTestCaseAction 1474545895402 TestBowling.java OK
+UnitTestSessionAction 1474545895402 TestBowling.java OK
+EditAction 1474545909608 Frame.java 862 6 10 0
