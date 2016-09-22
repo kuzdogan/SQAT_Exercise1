@@ -10,7 +10,7 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
-		bonus = new Frame(0,0)
+		bonus = new Frame(0,0);
 	}
 	
 	// adds a frame to the game
