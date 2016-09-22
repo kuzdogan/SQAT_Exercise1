@@ -598,3 +598,8 @@ EditAction 1474551947935 TestBowling.java 7284 26 134 23
 UnitTestCaseAction 1474551948791 TestBowling.java FAIL
 UnitTestSessionAction 1474551948791 TestBowling.java FAIL
 EditAction 1474551966252 TestBowling.java 7285 26 134 23
+UnitTestCaseAction 1474551968178 TestBowling.java FAIL
+UnitTestSessionAction 1474551968179 TestBowling.java FAIL
+RefactoringAction 1474551996801 TestBowling.java ADD void testGameScore4FrameWithSpare()/2 METHOD
+RefactoringAction 1474552000332 TestBowling.java RENAME testGameScore4FrameWithSpare()/2=>void testGameScore4FrameWithDSpare() METHOD
+EditAction 1474552000688 TestBowling.java 7599 27 140 24

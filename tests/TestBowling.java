@@ -202,6 +202,17 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void testGameScore4FrameWithDoubleSpare() throws BowlingException {
+		BowlingGame game = new BowlingGame();		
+		game.addFrame(new Frame(3, 4));
+		game.addFrame(new Frame(1, 0));
+		game.addFrame(new Frame(4, 6));
+		game.addFrame(new Frame(3, 4));
+		
+		assertEquals(28, game.score());
+	}
+	
+	@Test
 	public void testGameScore4FrameDoubleStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();		
 		game.addFrame(new Frame(3, 4));
