@@ -30,8 +30,6 @@ public class Frame {
 		else {
 			return firstThrow + secondThrow;
 		}
-		// to be implemented
-		return 0;
 	}
 
 	// returns whether the frame is a strike or not
