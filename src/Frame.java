@@ -26,6 +26,10 @@ public class Frame {
 		else if (this.isSpare()) {
 
 		}
+		
+		else {
+			return firstThrow + secondThrow;
+		}
 		// to be implemented
 		return 0;
 	}
