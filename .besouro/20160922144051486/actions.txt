@@ -449,3 +449,6 @@ RefactoringAction 1474550316708 TestBowling.java RENAME testAddFrameTripleStrike
 EditAction 1474550316723 TestBowling.java 4920 21 80 18
 EditAction 1474550330027 TestBowling.java 4883 21 79 18
 EditAction 1474550333660 TestBowling.java 4882 21 79 18
+UnitTestCaseAction 1474550335362 TestBowling.java FAIL
+UnitTestSessionAction 1474550335362 TestBowling.java FAIL
+EditAction 1474550361622 TestBowling.java 4885 21 79 18

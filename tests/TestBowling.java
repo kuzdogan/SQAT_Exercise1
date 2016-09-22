@@ -102,6 +102,7 @@ public class TestBowling {
 
 		assertEquals(2, game.getFrame(3).getNextThrow2());
 	}
+	
 	@Test
 	public void testAddFrameTripleStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();
