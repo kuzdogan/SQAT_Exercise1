@@ -9,7 +9,7 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
-	public BowlingGame(){
+	public BowlingGame() throws BowlingException{
 		bonus = new Frame(0,0); // Avoid null pointer exception.
 	}
 	
@@ -56,7 +56,8 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
-		this.bonus = new Frame(firstThrow, secondThrow);
+		this.bonus.setFirstThrow(firstThrow);
+		this.bonus.setSecondThrow(secondThrow);
 	}
 	
 	// Returns the game score
