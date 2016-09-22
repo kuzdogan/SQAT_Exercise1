@@ -164,7 +164,7 @@ public class TestBowling {
 		game.addFrame(new Frame(10, 0));
 		game.addFrame(new Frame(3, 4));
 		
-		assertEquals(35, game.score());
+		assertEquals(25, game.score());
 	}
 	
 	@Test
