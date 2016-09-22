@@ -58,6 +58,9 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
 		this.bonus.setFirstThrow(firstThrow);
 		this.bonus.setSecondThrow(secondThrow);
+		
+		frames.get(10).setNextThrow1(firstThrow);
+		frames.get(10).setNextThrow2(nextThrow2);
 	}
 	
 	// Returns the game score
