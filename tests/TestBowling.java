@@ -43,6 +43,6 @@ public class TestBowling {
 	public void testStrike_2_8() {
 		Frame testFrame = new Frame(2, 8);
 		
-		assertTrue(testFrame.isSpare());
+		assertFalse(testFrame.isSpare());
 	}
 }
