@@ -33,7 +33,6 @@ public class Frame {
 	public boolean isSpare(){
 		if(firstThrow + secondThrow == 10)
 			return true;
-		//to be implemented
 		return false;
 	}
 }
