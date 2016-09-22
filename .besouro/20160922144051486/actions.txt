@@ -325,3 +325,12 @@ EditAction 1474549177582 BowlingGame.java 1764 5 8 0
 CompilationAction 1474549177675 BowlingGame.java
 CompilationAction 1474549191282 BowlingGame.java
 EditAction 1474549195329 BowlingGame.java 1789 5 8 0
+UnitTestCaseAction 1474549195632 TestBowling.java OK
+UnitTestSessionAction 1474549195632 TestBowling.java OK
+RefactoringAction 1474549211146 TestBowling.java ADD void testGameScore FIELD
+RefactoringAction 1474549212159 TestBowling.java RENAME testGameScore=>void testGameScore_ FIELD
+RefactoringAction 1474549214173 TestBowling.java RENAME testGameScore_=>void testGameScore_1 FIELD
+RefactoringAction 1474549215687 TestBowling.java RENAME testGameScore_1=>void testGameScore_1_ FIELD
+RefactoringAction 1474549217693 TestBowling.java RENAME testGameScore_1_=>void testGameScore1Frame FIELD
+RefactoringAction 1474549220204 TestBowling.java RENAME testGameScore1Frame=>void testGameScore1Frame() METHOD
+EditAction 1474549247190 TestBowling.java 2722 14 38 10

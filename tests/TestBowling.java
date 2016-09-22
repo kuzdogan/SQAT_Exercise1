@@ -111,4 +111,11 @@ public class TestBowling {
 		
 		assertEquals(10, frame.score());
 	}
+	
+	@Test
+	public void testGameScore1Frame() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		
+		Frame frame = new Frame(3, 4);
+	}
 }
