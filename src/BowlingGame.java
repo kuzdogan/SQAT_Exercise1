@@ -32,12 +32,11 @@ public class BowlingGame {
 					} else{
 						prevFrame.setNextThrow1(10);
 					}
+				}		
 			}
 			else{
 				prevFrame.setNextThrow1(frame.getFirstThrow());
 				prevFrame.setNextThrow2(frame.getSecondThrow());
-			}
-			
 			}
 			
 		}
