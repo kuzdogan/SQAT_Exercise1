@@ -17,5 +17,12 @@ public class TestBowling {
 		
 		assertFalse(testFrame.isSpare());
 	}
+	
+	@Test
+	public void testSpare_2_8() {
+		Frame testFrame = new Frame(4, 3);
+		
+		assertFalse(testFrame.isSpare());
+	}
 
 }
