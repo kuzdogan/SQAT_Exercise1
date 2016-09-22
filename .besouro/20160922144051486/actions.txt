@@ -458,3 +458,4 @@ RefactoringAction 1474550499359 TestBowling.java ADD void testNextThrowOneStrike
 RefactoringAction 1474550501873 TestBowling.java RENAME testNextThrowOneStrike()/2=>void testNextThrowOneSt() METHOD
 RefactoringAction 1474550502888 TestBowling.java RENAME testNextThrowOneSt()=>void testNextThrow() METHOD
 EditAction 1474550503163 TestBowling.java 5217 22 85 19
+EditAction 1474550509237 TestBowling.java 5181 22 84 19

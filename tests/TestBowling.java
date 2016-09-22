@@ -97,10 +97,9 @@ public class TestBowling {
 		// Add 10 frames.
 		game.addFrame(new Frame(5, 3));
 		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(10, 0));
 		game.addFrame(new Frame(4, 2));
 
-		assertEquals(2, game.getFrame(3).getNextThrow2());
+		assertEquals(2, game.getFrame(2).getNextThrow2());
 	}
 	@Test
 	public void testNextThrowOneStrike() throws BowlingException {
