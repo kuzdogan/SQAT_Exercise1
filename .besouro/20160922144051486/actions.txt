@@ -510,3 +510,4 @@ RefactoringAction 1474551288097 TestBowling.java RENAME testGameScore10W()=>void
 EditAction 1474551290210 TestBowling.java 6713 25 120 22
 EditAction 1474551292920 TestBowling.java 6714 25 120 22
 EditAction 1474551300865 TestBowling.java 6714 25 120 22
+EditAction 1474551308724 TestBowling.java 6745 25 121 22
