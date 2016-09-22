@@ -487,3 +487,7 @@ EditAction 1474550890671 TestBowling.java 5495 23 90 20
 EditAction 1474550897582 TestBowling.java 5483 23 90 20
 EditAction 1474550931628 TestBowling.java 5692 23 96 20
 EditAction 1474550952205 TestBowling.java 5692 23 96 20
+UnitTestCaseAction 1474550953346 TestBowling.java OK
+UnitTestSessionAction 1474550953346 TestBowling.java OK
+RefactoringAction 1474550965800 TestBowling.java ADD void testGameScore10Frame()/2 METHOD
+EditAction 1474550966823 TestBowling.java 6200 24 108 21
