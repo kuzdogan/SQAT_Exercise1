@@ -247,3 +247,4 @@ EditAction 1474548505866 BowlingGame.java 1546 5 6 0
 RefactoringAction 1474548547868 TestBowling.java ADD void testFrameScore FIELD
 RefactoringAction 1474548549876 TestBowling.java RENAME testFrameScore=>void testFrameScore() METHOD
 EditAction 1474548563415 TestBowling.java 2149 11 32 7
+EditAction 1474548575610 TestBowling.java 2184 11 33 8
