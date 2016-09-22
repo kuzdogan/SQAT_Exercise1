@@ -47,6 +47,9 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
+		for (int i = 0; i < frames.size(); i++) {
+			
+		}
 		// Get all scores of frames by calling their score method
 		// If 10 shots made add bonus too
 		return 0;
