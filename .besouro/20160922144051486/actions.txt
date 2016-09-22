@@ -509,3 +509,4 @@ RefactoringAction 1474551283581 TestBowling.java RENAME testGameScore10Frame2()/
 RefactoringAction 1474551288097 TestBowling.java RENAME testGameScore10W()=>void testGameScore10FrameBonus() METHOD
 EditAction 1474551290210 TestBowling.java 6713 25 120 22
 EditAction 1474551292920 TestBowling.java 6714 25 120 22
+EditAction 1474551300865 TestBowling.java 6714 25 120 22

@@ -250,7 +250,7 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();		
 		game.addFrame(new Frame(0, 0));
 		game.addFrame(new Frame(0, 0));
-		game.addFrame(new Frame(0, 0));
+		game.addFrame(new Frame(5, 2));
 		game.addFrame(new Frame(0, 0));
 		game.addFrame(new Frame(0, 0));
 		game.addFrame(new Frame(0, 0));
