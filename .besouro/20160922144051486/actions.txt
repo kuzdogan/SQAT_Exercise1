@@ -604,3 +604,4 @@ RefactoringAction 1474551996801 TestBowling.java ADD void testGameScore4FrameWit
 RefactoringAction 1474552000332 TestBowling.java RENAME testGameScore4FrameWithSpare()/2=>void testGameScore4FrameWithDSpare() METHOD
 EditAction 1474552000688 TestBowling.java 7599 27 140 24
 EditAction 1474552013952 TestBowling.java 7634 27 141 24
+EditAction 1474552034928 TestBowling.java 7634 27 141 24
