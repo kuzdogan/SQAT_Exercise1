@@ -2,6 +2,11 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	// Variables for calculating strike/spare scores
+	// Assigned on BowlingGame.addFrame() method
+	private int nextThrow1, nextThrow2;
+	// TODO: A better way to do?
+	
 	// Frame number to access other frames.
 	private int frameNum;
 	// TODO: Can we use another method to access other frames in the game?
@@ -15,6 +20,30 @@ public class Frame {
 
 	public int getFirstThrow() {
 		return firstThrow;
+	}
+
+	public int getNextThrow1() {
+		return nextThrow1;
+	}
+
+	public void setNextThrow1(int nextThrow1) {
+		this.nextThrow1 = nextThrow1;
+	}
+
+	public int getNextThrow2() {
+		return nextThrow2;
+	}
+
+	public void setNextThrow2(int nextThrow2) {
+		this.nextThrow2 = nextThrow2;
+	}
+
+	public void setFirstThrow(int firstThrow) {
+		this.firstThrow = firstThrow;
+	}
+
+	public void setSecondThrow(int secondThrow) {
+		this.secondThrow = secondThrow;
 	}
 
 	public int getSecondThrow() {

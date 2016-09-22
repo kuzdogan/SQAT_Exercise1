@@ -161,3 +161,22 @@ CompilationAction 1474546845172 Frame.java
 CompilationAction 1474546845372 Frame.java
 EditAction 1474546884509 BowlingGame.java 892 5 5 0
 EditAction 1474547008373 Frame.java 1276 8 12 0
+CompilationAction 1474547008479 Frame.java
+RefactoringAction 1474547166701 Frame.java ADD int ne FIELD
+RefactoringAction 1474547167713 Frame.java REMOVE ne FIELD
+RefactoringAction 1474547170727 Frame.java ADD int nextThrow1 FIELD
+RefactoringAction 1474547174749 Frame.java ADD int next FIELD
+RefactoringAction 1474547177258 Frame.java RENAME next=>int nextThrow2 FIELD
+CompilationAction 1474547218118 Frame.java
+CompilationAction 1474547218313 Frame.java
+CompilationAction 1474547228855 Frame.java
+CompilationAction 1474547229026 Frame.java
+RefactoringAction 1474547325421 Frame.java ADD int getNextThrow1() METHOD
+RefactoringAction 1474547325422 Frame.java ADD void setNextThrow1(int) METHOD
+RefactoringAction 1474547325422 Frame.java ADD int getNextThrow2() METHOD
+RefactoringAction 1474547325423 Frame.java ADD void setNextThrow2(int) METHOD
+RefactoringAction 1474547325423 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1474547325424 Frame.java ADD void setSecondThrow(int) METHOD
+CompilationAction 1474547325926 Frame.java
+CompilationAction 1474547326117 Frame.java
+EditAction 1474547401228 BowlingGame.java 952 5 6 0
