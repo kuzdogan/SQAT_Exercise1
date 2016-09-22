@@ -486,3 +486,4 @@ RefactoringAction 1474550890574 TestBowling.java RENAME testGameScore4FrameDoubl
 EditAction 1474550890671 TestBowling.java 5495 23 90 20
 EditAction 1474550897582 TestBowling.java 5483 23 90 20
 EditAction 1474550931628 TestBowling.java 5692 23 96 20
+EditAction 1474550952205 TestBowling.java 5692 23 96 20
