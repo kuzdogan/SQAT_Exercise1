@@ -26,6 +26,7 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		// Get all scores of frames by calling their score method
+		// If 10 shots made add bonus too
 		return 0;
 	}
 	

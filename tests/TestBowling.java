@@ -7,14 +7,14 @@ public class TestBowling {
 	
 	@Test
 	public void testFrame_4_3() throws BowlingException {
-		Frame testFrame = new Frame(4, 3);
+		new Frame(4, 3);
 		
 		// Expect no exceptions.
 	}
 	
 	@Test (expected = BowlingException.class)
 	public void testFrame_4_9() throws BowlingException {
-		Frame testFrame = new Frame(4, 9);
+		new Frame(4, 9);
 		
 		// Expect exception to be thrown.
 	}
