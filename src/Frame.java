@@ -51,7 +51,11 @@ public class Frame {
 		return false;
 	}
 	
-	public setFrameNum(int num){
+	public void setFrameNum(int num){
 		this.frameNum = num;
+	}
+	
+	public int getFrameNum(){
+		return this.frameNum;
 	}
 }

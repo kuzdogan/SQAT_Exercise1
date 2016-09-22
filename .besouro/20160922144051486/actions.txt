@@ -151,3 +151,12 @@ CompilationAction 1474546775918 Frame.java
 RefactoringAction 1474546804953 Frame.java ADD void setFrameNum() METHOD
 RefactoringAction 1474546806965 Frame.java RENAME setFrameNum()=>void setFrameNum(int) METHOD
 EditAction 1474546819873 Frame.java 1165 7 11 0
+CompilationAction 1474546819982 Frame.java
+CompilationAction 1474546819982 Frame.java
+RefactoringAction 1474546836055 Frame.java ADD void getFrameNum() METHOD
+CompilationAction 1474546841336 Frame.java
+CompilationAction 1474546841528 Frame.java
+CompilationAction 1474546841528 Frame.java
+CompilationAction 1474546845172 Frame.java
+CompilationAction 1474546845372 Frame.java
+EditAction 1474546884509 BowlingGame.java 892 5 5 0
