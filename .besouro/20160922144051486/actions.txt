@@ -366,3 +366,8 @@ RefactoringAction 1474549374760 TestBowling.java ADD void testGameScore4Frame()/
 EditAction 1474549382119 TestBowling.java 3854 18 60 15
 EditAction 1474549385922 TestBowling.java 3855 18 60 15
 EditAction 1474549401532 TestBowling.java 3855 18 60 15
+UnitTestCaseAction 1474549403043 TestBowling.java FAIL
+UnitTestSessionAction 1474549403043 TestBowling.java FAIL
+RefactoringAction 1474549435814 TestBowling.java ADD void testAddFrameOutOfBounds()/2 METHOD
+RefactoringAction 1474549439325 TestBowling.java RENAME testAddFrameOutOfBounds()/2=>void testAddFrameD() METHOD
+EditAction 1474549441308 TestBowling.java 4451 19 72 15

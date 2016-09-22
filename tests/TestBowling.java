@@ -91,6 +91,26 @@ public class TestBowling {
 		game.addFrame(new Frame(5, 3));
 	}
 	
+	@Test (expected = BowlingException.class)
+	public void testAddFrameDoubleStrike() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		
+		// Add 10 frames.
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		
+		// Excessive frame.
+		game.addFrame(new Frame(5, 3));
+	}
+	
 	@Test
 	public void testFrameScore_5_3() throws BowlingException {
 		Frame frame = new Frame(5, 3);
