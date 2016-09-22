@@ -47,7 +47,6 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		this.bonus.setFirstThrow(firstThrow);
 		this.bonus.setSecondThrow(secondThrow);
-		//to be implemented
 	}
 	
 	// Returns the game score
