@@ -83,7 +83,7 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.addFrame(frame);
 		game.addFrame(frame);
-		game.addFrame(frame);
+
 		
 		// Excessive frame.
 
