@@ -72,3 +72,15 @@ RefactoringAction 1474545592123 TestBowling.java RENAME testSpare_4_3()/2=>void 
 EditAction 1474545592204 TestBowling.java 1130 7 14 7
 RefactoringAction 1474545684176 TestBowling.java ADD ExpectedException thrown FIELD
 EditAction 1474545701362 TestBowling.java 1202 7 14 7
+CompilationAction 1474545701461 TestBowling.java
+CompilationAction 1474545701461 TestBowling.java
+RefactoringAction 1474545711288 TestBowling.java ADD import org.junit.Rule IMPORT
+CompilationAction 1474545711725 TestBowling.java
+CompilationAction 1474545711726 TestBowling.java
+CompilationAction 1474545712471 TestBowling.java
+RefactoringAction 1474545804307 TestBowling.java REMOVE thrown FIELD
+RefactoringAction 1474545806830 TestBowling.java ADD void testFrame_4_3()/2 METHOD
+CompilationAction 1474545807780 TestBowling.java
+RefactoringAction 1474545815359 TestBowling.java REMOVE testFrame_4_3()/2 METHOD
+CompilationAction 1474545815860 TestBowling.java
+EditAction 1474545835565 TestBowling.java 1150 7 13 6

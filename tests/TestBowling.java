@@ -1,16 +1,15 @@
 import static org.junit.Assert.*;
 
+import org.junit.Rule;
 import org.junit.Test;
 
 public class TestBowling {
-	@Rule
-  public BowlingException thrown = BowlingException.none();
 	
 	@Test
 	public void testFrame_4_3() throws BowlingException {
 		Frame testFrame = new Frame(4, 3);
-
-		assertFalse(testFrame.isSpare());
+		
+		// Expect no exceptions.
 	}
 	
 	@Test
