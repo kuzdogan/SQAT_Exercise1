@@ -76,6 +76,15 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		Frame frame = new Frame(5, 3);
 		
+		// Add 10 frames.
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
+		game.addFrame(frame);
 		game.addFrame(frame);
 		
 		assertEquals(frame, game.getFrame(0));
