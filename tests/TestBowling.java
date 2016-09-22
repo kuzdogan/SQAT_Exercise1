@@ -125,10 +125,10 @@ public class TestBowling {
 	@Test
 	public void testGameScore1FrameSpare() throws BowlingException {
 		BowlingGame game = new BowlingGame();		
-		Frame frame = new Frame(3, 4);
+		Frame frame = new Frame(3, 7);
 		
 		game.addFrame(frame);
 		
-		assertEquals(7,game.score());
+		assertEquals(10,game.score());
 	}
 }
