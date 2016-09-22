@@ -91,4 +91,10 @@ public class TestBowling {
 		// Excessive frame.
 		game.addFrame(frame);
 	}
+	
+	@Test
+	public void testFrameScore() throws BowlingException {
+		Frame frame = new Frame(5, 3);
+		
+	}
 }
