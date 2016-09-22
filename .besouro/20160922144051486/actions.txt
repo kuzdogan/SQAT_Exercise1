@@ -33,3 +33,4 @@ UnitTestSessionAction 1474545289612 TestBowling.java OK
 RefactoringAction 1474545311670 TestBowling.java ADD void testSpare_4_3()/2 METHOD
 RefactoringAction 1474545314689 TestBowling.java RENAME testSpare_4_3()/2=>void testS_4_3() METHOD
 EditAction 1474545315642 TestBowling.java 598 4 8 4
+EditAction 1474545322326 TestBowling.java 599 4 8 4
