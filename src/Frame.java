@@ -24,7 +24,7 @@ public class Frame {
 	// returns the score of a single frame
 	public int score() {
 		if (this.isStrike()) {
-
+			
 		}
 
 		else if (this.isSpare()) {
@@ -51,10 +51,12 @@ public class Frame {
 		return false;
 	}
 	
+	// TODO: Write test
 	public void setFrameNum(int num){
 		this.frameNum = num;
 	}
 	
+	//TODO: Write test
 	public int getFrameNum(){
 		return this.frameNum;
 	}
