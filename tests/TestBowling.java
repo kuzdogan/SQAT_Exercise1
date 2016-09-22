@@ -74,19 +74,18 @@ public class TestBowling {
 	@Test (expected = BowlingException.class)
 	public void testAddFrameOutOfBounds() throws BowlingException {
 		BowlingGame game = new BowlingGame();
-		Frame frame = new Frame(5, 3);
 		
 		// Add 10 frames.
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
-		game.addFrame(frame);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3);
 		
 		// Excessive frame.
 		game.addFrame(frame);
