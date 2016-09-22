@@ -5,8 +5,8 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testSpare_4_3() {
+		Frame testFrame = new Frame(4, 3)
 	}
 
 }

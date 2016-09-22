@@ -6,3 +6,7 @@ EditAction 1474545024469 Frame.java 712 6 8 0
 EditAction 1474545064460 Frame.java 767 6 9 0
 EditAction 1474545069287 Frame.java 744 6 9 0
 EditAction 1474545087174 Frame.java 766 6 9 0
+RefactoringAction 1474545101934 TestBowling.java RENAME test()=>void testSpare() METHOD
+RefactoringAction 1474545179219 TestBowling.java RENAME testSpare()=>void testSpare_() METHOD
+RefactoringAction 1474545180737 TestBowling.java RENAME testSpare_()=>void testSpare_4() METHOD
+EditAction 1474545187767 TestBowling.java 179 1 0 0
