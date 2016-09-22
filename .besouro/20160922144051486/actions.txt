@@ -15,3 +15,9 @@ EditAction 1474545189985 TestBowling.java 180 1 1 0
 EditAction 1474545246068 TestBowling.java 221 1 2 1
 RefactoringAction 1474545252450 TestBowling.java ADD void testSpare_4_3()/2 METHOD
 EditAction 1474545252813 TestBowling.java 347 2 4 2
+CompilationAction 1474545252912 TestBowling.java
+RefactoringAction 1474545255480 TestBowling.java RENAME testSpare_4_3()/2=>void testSpare_1_3() METHOD
+RefactoringAction 1474545256496 TestBowling.java RENAME testSpare_1_3()=>void testSpare_10_3() METHOD
+RefactoringAction 1474545258019 TestBowling.java RENAME testSpare_10_3()=>void testSpare_10_0() METHOD
+CompilationAction 1474545258048 TestBowling.java
+EditAction 1474545261894 TestBowling.java 349 2 4 2

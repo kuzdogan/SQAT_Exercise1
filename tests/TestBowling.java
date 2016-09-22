@@ -12,8 +12,8 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testSpare_4_3() {
-		Frame testFrame = new Frame(4, 3);
+	public void testSpare_10_0() {
+		Frame testFrame = new Frame(10, 0);
 		
 		assertFalse(testFrame.isSpare());
 	}
