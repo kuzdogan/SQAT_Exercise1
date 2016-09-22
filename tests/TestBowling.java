@@ -159,7 +159,7 @@ public class TestBowling {
 		game.addFrame(new Frame(3, 4));
 		game.addFrame(new Frame(1, 0));
 		game.addFrame(new Frame(10, 0));
-		game.addFrame(new Frame(3, 4));
+		game.addFrame(new Frame(10, 0));
 		
 		assertEquals(32, game.score());
 	}
