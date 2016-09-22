@@ -135,7 +135,7 @@ public class TestBowling {
 	@Test
 	public void testGameScore1FrameStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();		
-		Frame frame = new Frame(3, 4);
+		Frame frame = new Frame(10,0);
 		
 		game.addFrame(frame);
 		
