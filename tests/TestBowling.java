@@ -91,7 +91,7 @@ public class TestBowling {
 		game.addFrame(new Frame(5, 3));
 	}
 	@Test
-	public void testAddFrameOneStrike() throws BowlingException {
+	public void testNextThrowOneStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		
 		// Add 10 frames.
