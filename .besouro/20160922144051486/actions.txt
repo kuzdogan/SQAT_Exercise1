@@ -433,3 +433,4 @@ RefactoringAction 1474550190501 TestBowling.java RENAME testGameScore4Frame()/2=
 RefactoringAction 1474550192010 TestBowling.java RENAME testGameScore4FrameSpare()=>void testGameScore4FrameWSpare() METHOD
 RefactoringAction 1474550193023 TestBowling.java RENAME testGameScore4FrameWSpare()=>void testGameScore4FrameWitSpare() METHOD
 EditAction 1474550193780 TestBowling.java 4544 20 73 17
+EditAction 1474550197759 TestBowling.java 4543 20 73 17
