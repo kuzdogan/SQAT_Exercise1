@@ -259,3 +259,6 @@ RefactoringAction 1474548605080 TestBowling.java RENAME testFrameScore_1_3()=>vo
 EditAction 1474548605133 TestBowling.java 2488 13 37 10
 EditAction 1474548609047 TestBowling.java 2489 13 37 10
 EditAction 1474548613536 TestBowling.java 2490 13 37 10
+UnitTestCaseAction 1474548616389 TestBowling.java FAIL
+UnitTestSessionAction 1474548616389 TestBowling.java FAIL
+EditAction 1474548721574 BowlingGame.java 1546 5 6 0
