@@ -91,7 +91,7 @@ public class TestBowling {
 		game.addFrame(new Frame(5, 3));
 	}
 	
-	@Test (expected = BowlingException.class)
+	@Test
 	public void testAddFrameTripleStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		
@@ -99,7 +99,8 @@ public class TestBowling {
 		game.addFrame(new Frame(5, 3));
 		game.addFrame(new Frame(5, 3));
 		game.addFrame(new Frame(10, 0));
-
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(10, 0));
 
 		assertEquals(10, game.getFrame(3).getNextThrow2());
 	}
