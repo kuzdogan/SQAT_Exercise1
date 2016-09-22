@@ -117,7 +117,7 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		
 		Frame frame = new Frame(3, 4);
-		
+		game.addFrame(frame);
 		assertEquals(7,game.score());
 	}
 }
