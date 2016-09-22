@@ -20,13 +20,13 @@ public class BowlingGame {
 		// If not the first frame, set the scores.
 		// Here set the nextThrow values of prev frames.
 		if(frame.getFrameNum() > 1){
-			Frame prevFrame = frames.get(frame.getFrameNum()-2);
+			Frame prevFrame = frames.get(frame.getFrameNum()-2); // -2 for accessing index starting from 0
 			
 			// If a strike check if double strike.
 			if(frame.isStrike()){
 				// If double strike set as 2. next throw of prev prev frame
 				if(prevFrame.isStrike() && frame.getFrameNum() > 2){
-					Frame prevPrevFrame = frames.get(frame.getFrameNum()-3);
+					Frame prevPrevFrame = frames.get(frame.getFrameNum()-3); // -3 for accessing index starting from 0
 					prevPrevFrame.setNextThrow2(10);
 				} else{
 					prevFrame.setNextThrow1(10);
