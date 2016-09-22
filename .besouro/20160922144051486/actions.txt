@@ -238,3 +238,4 @@ RefactoringAction 1474548364173 Frame.java REMOVE setFrameNum(int) METHOD
 RefactoringAction 1474548364173 Frame.java REMOVE isSpare() METHOD
 RefactoringAction 1474548364174 Frame.java REMOVE isStrike() METHOD
 EditAction 1474548390484 BowlingGame.java 1384 5 6 0
+EditAction 1474548424300 BowlingGame.java 1389 5 6 0
