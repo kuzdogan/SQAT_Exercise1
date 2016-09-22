@@ -53,7 +53,7 @@ public class BowlingGame {
 		}
 		// Get all scores of frames by calling their score method
 		// If 10 shots made add bonus too
-		return 0;
+		return total;
 	}
 	
 	// Returns the frame number i.
