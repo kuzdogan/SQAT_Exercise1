@@ -49,7 +49,7 @@ public class BowlingGame {
 	public int score(){
 		int total = 0;
 		for (int i = 0; i < frames.size(); i++) {
-			
+			totat += frames.get(i).score();
 		}
 		// Get all scores of frames by calling their score method
 		// If 10 shots made add bonus too
