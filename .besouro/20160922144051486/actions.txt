@@ -301,3 +301,10 @@ UnitTestCaseAction 1474548831410 TestBowling.java FAIL
 UnitTestSessionAction 1474548831411 TestBowling.java FAIL
 EditAction 1474548914969 TestBowling.java 2490 13 37 10
 EditAction 1474548928028 TestBowling.java 2546 13 24 10
+CompilationAction 1474548928123 TestBowling.java
+CompilationAction 1474548928123 TestBowling.java
+CompilationAction 1474548929701 TestBowling.java
+CompilationAction 1474548929892 TestBowling.java
+CompilationAction 1474548965786 TestBowling.java
+CompilationAction 1474548965963 TestBowling.java
+EditAction 1474548968425 TestBowling.java 2566 13 36 10

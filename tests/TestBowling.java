@@ -76,19 +76,19 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		
 		// Add 10 frames.
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
-		game.addFrame(new Frame(5, 3);
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
 		
 		// Excessive frame.
-		game.addFrame(frame);
+		game.addFrame(new Frame(5, 3));
 	}
 	
 	@Test
