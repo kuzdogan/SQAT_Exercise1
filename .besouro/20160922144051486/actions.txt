@@ -180,3 +180,27 @@ RefactoringAction 1474547325424 Frame.java ADD void setSecondThrow(int) METHOD
 CompilationAction 1474547325926 Frame.java
 CompilationAction 1474547326117 Frame.java
 EditAction 1474547401228 BowlingGame.java 952 5 6 0
+RefactoringAction 1474547559010 BowlingGame.java ADD List<Integer> shot FIELD
+RefactoringAction 1474547563522 BowlingGame.java RENAME shot=>List<Integer> shots FIELD
+CompilationAction 1474547568074 BowlingGame.java
+CompilationAction 1474547572358 BowlingGame.java
+CompilationAction 1474547572481 BowlingGame.java
+CompilationAction 1474547572481 BowlingGame.java
+RefactoringAction 1474547576017 BowlingGame.java ADD import java.util.Queue IMPORT
+CompilationAction 1474547577095 BowlingGame.java
+CompilationAction 1474547577096 BowlingGame.java
+CompilationAction 1474547577246 BowlingGame.java
+CompilationAction 1474547582561 BowlingGame.java
+CompilationAction 1474547582730 BowlingGame.java
+RefactoringAction 1474547596117 BowlingGame.java REMOVE shots FIELD
+CompilationAction 1474547598226 BowlingGame.java
+CompilationAction 1474547598412 BowlingGame.java
+CompilationAction 1474547598412 BowlingGame.java
+CompilationAction 1474547601112 BowlingGame.java
+CompilationAction 1474547601113 BowlingGame.java
+CompilationAction 1474547601294 BowlingGame.java
+RefactoringAction 1474547639663 BowlingGame.java ADD import java.util.LinkedList IMPORT
+CompilationAction 1474547640415 BowlingGame.java
+RefactoringAction 1474547645689 BowlingGame.java RENAME shots=>Queue<Integer> shotQ FIELD
+CompilationAction 1474547708614 BowlingGame.java
+EditAction 1474547709437 BowlingGame.java 1246 5 8 0
