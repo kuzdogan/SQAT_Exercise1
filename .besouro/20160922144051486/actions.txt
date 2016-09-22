@@ -26,3 +26,10 @@ RefactoringAction 1474545267584 TestBowling.java RENAME testSpare_4_3()/2=>void 
 EditAction 1474545269251 TestBowling.java 475 3 6 3
 EditAction 1474545273001 TestBowling.java 475 3 6 3
 EditAction 1474545276731 TestBowling.java 474 3 6 3
+UnitTestCaseAction 1474545283295 TestBowling.java OK
+UnitTestSessionAction 1474545283296 TestBowling.java OK
+UnitTestCaseAction 1474545289611 TestBowling.java OK
+UnitTestSessionAction 1474545289612 TestBowling.java OK
+RefactoringAction 1474545311670 TestBowling.java ADD void testSpare_4_3()/2 METHOD
+RefactoringAction 1474545314689 TestBowling.java RENAME testSpare_4_3()/2=>void testS_4_3() METHOD
+EditAction 1474545315642 TestBowling.java 598 4 8 4
