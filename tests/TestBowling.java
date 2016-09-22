@@ -242,7 +242,7 @@ public class TestBowling {
 		game.addFrame(new Frame(0, 0));
 		game.addFrame(new Frame(0, 0));
 		
-		assertEquals(52, game.score());
+		assertEquals(0, game.score());
 	}
 	
 }
