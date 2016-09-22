@@ -91,6 +91,18 @@ public class TestBowling {
 		game.addFrame(new Frame(5, 3));
 	}
 	@Test
+	public void testNextThrow() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		
+		// Add 10 frames.
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(4, 2));
+
+		assertEquals(2, game.getFrame(3).getNextThrow2());
+	}
+	@Test
 	public void testNextThrowOneStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		

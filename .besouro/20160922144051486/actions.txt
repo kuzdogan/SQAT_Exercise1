@@ -454,3 +454,7 @@ UnitTestSessionAction 1474550335362 TestBowling.java FAIL
 EditAction 1474550361622 TestBowling.java 4885 21 79 18
 RefactoringAction 1474550492833 TestBowling.java RENAME testAddFrameOneStrike()=>void testNextTrhowOneStrike() METHOD
 EditAction 1474550494983 TestBowling.java 4886 21 79 18
+RefactoringAction 1474550499359 TestBowling.java ADD void testNextThrowOneStrike()/2 METHOD
+RefactoringAction 1474550501873 TestBowling.java RENAME testNextThrowOneStrike()/2=>void testNextThrowOneSt() METHOD
+RefactoringAction 1474550502888 TestBowling.java RENAME testNextThrowOneSt()=>void testNextThrow() METHOD
+EditAction 1474550503163 TestBowling.java 5217 22 85 19
