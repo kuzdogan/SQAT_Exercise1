@@ -212,4 +212,15 @@ public class TestBowling {
 		assertEquals(38, game.score());
 	}
 	
+	@Test
+	public void testGameScore10FrameDoubleStrike() throws BowlingException {
+		BowlingGame game = new BowlingGame();		
+		game.addFrame(new Frame(3, 4));
+		game.addFrame(new Frame(1, 0));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(10, 0));
+		
+		assertEquals(38, game.score());
+	}
+	
 }
