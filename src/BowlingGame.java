@@ -61,6 +61,7 @@ public class BowlingGame {
 		
 		frames.get(10).setNextThrow1(firstThrow);
 		frames.get(10).setNextThrow2(nextThrow2);
+		
 	}
 	
 	// Returns the game score
