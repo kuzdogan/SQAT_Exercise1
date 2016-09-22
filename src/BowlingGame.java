@@ -28,4 +28,8 @@ public class BowlingGame {
 		// Get all scores of frames by calling their score method
 		return 0;
 	}
+	
+	public Frame getFrame(int i){
+		return frames.get(i);
+	}
 }
