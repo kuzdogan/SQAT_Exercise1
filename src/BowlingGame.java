@@ -22,6 +22,7 @@ public class BowlingGame {
 		if(frame.getFrameNum() > 1){
 			Frame prevFrame = frames.get(frame.getFrameNum()-2); // -2 for accessing index starting from 0
 			
+			// Check if strike.
 			if(frame.isStrike()){
 				// If a strike check if double strike.
 				if(prevFrame.isStrike() && frame.getFrameNum() > 2){
@@ -38,7 +39,6 @@ public class BowlingGame {
 				prevFrame.setNextThrow1(frame.getFirstThrow());
 				prevFrame.setNextThrow2(frame.getSecondThrow());
 			}
-			
 		}
 		frames.add(frame);
 	}
