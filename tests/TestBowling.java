@@ -68,7 +68,7 @@ public class TestBowling {
 		
 		game.addFrame(frame);
 		
-		assertEquals(frame, game.getFrame(0));
+		assertEquals(frame, game.getFrame(1));
 	}
 	
 	@Test (expected = BowlingException.class)
