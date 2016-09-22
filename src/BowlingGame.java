@@ -12,7 +12,8 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
+	public void addFrame(Frame frame) throws BowlingException{
+		if 
 		frames.add(frame);
 		
 	}
