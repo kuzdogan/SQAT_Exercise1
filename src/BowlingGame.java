@@ -59,8 +59,8 @@ public class BowlingGame {
 		this.bonus.setFirstThrow(firstThrow);
 		this.bonus.setSecondThrow(secondThrow);
 		
-		frames.get(10).setNextThrow1(firstThrow);
-		frames.get(10).setNextThrow2(nextThrow2);
+		frames.get(9).setNextThrow1(firstThrow);
+		frames.get(9).setNextThrow2(secondThrow);
 		
 	}
 	
