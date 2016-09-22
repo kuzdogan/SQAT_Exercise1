@@ -90,7 +90,19 @@ public class TestBowling {
 		// Excessive frame.
 		game.addFrame(new Frame(5, 3));
 	}
-	
+	@Test
+	public void testAddFrameOneStrike() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		
+		// Add 10 frames.
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(10, 0));
+
+		assertEquals(10, game.getFrame(3).getNextThrow2());
+	}
 	@Test
 	public void testAddFrameTripleStrike() throws BowlingException {
 		BowlingGame game = new BowlingGame();
@@ -104,6 +116,7 @@ public class TestBowling {
 
 		assertEquals(10, game.getFrame(3).getNextThrow2());
 	}
+	
 	
 	@Test
 	public void testFrameScore_5_3() throws BowlingException {
