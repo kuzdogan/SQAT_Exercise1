@@ -286,7 +286,7 @@ public class TestBowling {
 
 		game.setBonus(6, 0);
 		
-		assertEquals(133, game.score());
+		assertEquals(61, game.score());
 	}
 	
 }
