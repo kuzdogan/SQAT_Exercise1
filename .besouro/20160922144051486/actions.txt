@@ -67,3 +67,6 @@ CompilationAction 1474545558025 TestBowling.java
 CompilationAction 1474545558211 TestBowling.java
 CompilationAction 1474545560733 TestBowling.java
 EditAction 1474545575114 TestBowling.java 984 6 12 6
+RefactoringAction 1474545588110 TestBowling.java ADD void testSpare_4_3()/2 METHOD
+RefactoringAction 1474545592123 TestBowling.java RENAME testSpare_4_3()/2=>void testF_4_3() METHOD
+EditAction 1474545592204 TestBowling.java 1130 7 14 7

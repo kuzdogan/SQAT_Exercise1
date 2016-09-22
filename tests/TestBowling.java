@@ -3,7 +3,13 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestBowling {
+	@Test
+	public void testFrame_4_3() throws BowlingException {
+		Frame testFrame = new Frame(4, 3);
 
+		assertFalse(testFrame.isSpare());
+	}
+	
 	@Test
 	public void testSpare_4_3() throws BowlingException {
 		Frame testFrame = new Frame(4, 3);
