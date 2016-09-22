@@ -269,7 +269,7 @@ public class TestBowling {
 		game.addFrame(new Frame(4, 5));
 		game.addFrame(new Frame(6, 4));
 		game.addFrame(new Frame(5, 5));
-		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(9, 0));
 		game.addFrame(new Frame(0, 1));
 		game.addFrame(new Frame(7, 3));
 		game.addFrame(new Frame(6, 4));
