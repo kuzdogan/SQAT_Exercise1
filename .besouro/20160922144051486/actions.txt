@@ -38,3 +38,7 @@ RefactoringAction 1474545332727 TestBowling.java ADD void testSpare_10_0()/2 MET
 RefactoringAction 1474545332728 TestBowling.java ADD void testSpare_2_8()/2 METHOD
 RefactoringAction 1474545335249 TestBowling.java RENAME testSpare_10_0()/2=>void testStr_10_0() METHOD
 EditAction 1474545335344 TestBowling.java 853 6 12 6
+CompilationAction 1474545335583 TestBowling.java
+RefactoringAction 1474545338274 TestBowling.java RENAME testSpare_2_8()/2=>void testSt_2_8() METHOD
+CompilationAction 1474545338359 TestBowling.java
+EditAction 1474545349695 TestBowling.java 854 6 12 6
