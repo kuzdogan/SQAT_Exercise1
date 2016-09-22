@@ -29,6 +29,8 @@ public class BowlingGame {
 				if(prevFrame.isStrike()){
 					Frame prevPrevFrame = frames.get(frame.getFrameNum()-2);
 					prevPrevFrame.setNextThrow2(10);
+				} else{
+					prevFrame.setNextThrow1(10);
 				}
 			}
 			
