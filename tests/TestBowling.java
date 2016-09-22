@@ -98,17 +98,8 @@ public class TestBowling {
 		// Add 10 frames.
 		game.addFrame(new Frame(5, 3));
 		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		game.addFrame(new Frame(5, 3));
-		
-		// Excessive frame.
-		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(10, 0));
 	}
 	
 	@Test

@@ -371,3 +371,4 @@ UnitTestSessionAction 1474549403043 TestBowling.java FAIL
 RefactoringAction 1474549435814 TestBowling.java ADD void testAddFrameOutOfBounds()/2 METHOD
 RefactoringAction 1474549439325 TestBowling.java RENAME testAddFrameOutOfBounds()/2=>void testAddFrameD() METHOD
 EditAction 1474549441308 TestBowling.java 4451 19 72 15
+EditAction 1474549461181 TestBowling.java 4181 19 65 15
