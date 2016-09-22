@@ -37,7 +37,6 @@ public class BowlingGame {
 			}
 			
 		}
-		
 		frames.add(frame);
 	}
 	
