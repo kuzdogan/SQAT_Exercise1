@@ -350,3 +350,7 @@ RefactoringAction 1474549300507 TestBowling.java RENAME testGameScore1Frame()/2=
 EditAction 1474549301252 TestBowling.java 3238 16 48 13
 EditAction 1474549304532 TestBowling.java 3238 16 48 13
 EditAction 1474549306496 TestBowling.java 3239 16 48 13
+UnitTestCaseAction 1474549307834 TestBowling.java OK
+UnitTestSessionAction 1474549307834 TestBowling.java OK
+RefactoringAction 1474549310558 TestBowling.java ADD void testGameScore1Frame()/2 METHOD
+EditAction 1474549310570 TestBowling.java 3459 17 52 14
