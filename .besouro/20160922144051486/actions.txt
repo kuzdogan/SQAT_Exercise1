@@ -359,3 +359,4 @@ RefactoringAction 1474549313581 TestBowling.java RENAME testGameScore1Frame()/2=
 EditAction 1474549330616 TestBowling.java 3536 17 54 14
 EditAction 1474549346042 TestBowling.java 3537 17 54 14
 EditAction 1474549362752 TestBowling.java 3538 17 54 14
+EditAction 1474549364662 TestBowling.java 3539 17 54 14
