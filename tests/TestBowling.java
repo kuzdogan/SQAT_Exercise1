@@ -143,11 +143,12 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testGameScore1Frame() throws BowlingException {
+	public void testGameScore4Frame() throws BowlingException {
 		BowlingGame game = new BowlingGame();		
-		Frame frame = new Frame(3, 4);
-		
-		game.addFrame(frame);
+		game.addFrame(new Frame(3, 4));
+		game.addFrame(new Frame(3, 4));
+		game.addFrame(new Frame(3, 4));
+		game.addFrame(new Frame(3, 4));
 		
 		assertEquals(7,game.score());
 	}
