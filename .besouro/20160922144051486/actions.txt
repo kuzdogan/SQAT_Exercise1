@@ -567,3 +567,7 @@ CompilationAction 1474551711876 BowlingGame.java
 UnitTestCaseAction 1474551717165 TestBowling.java FAIL
 UnitTestSessionAction 1474551717166 TestBowling.java FAIL
 EditAction 1474551726504 BowlingGame.java 2385 5 14 0
+UnitTestCaseAction 1474551727715 TestBowling.java OK
+UnitTestSessionAction 1474551727715 TestBowling.java OK
+RefactoringAction 1474551747191 TestBowling.java ADD void testGameScore10FrameBonus()/2 METHOD
+EditAction 1474551847597 TestBowling.java 7278 26 134 23
